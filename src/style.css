@@ -1,4 +1,13 @@
 
+html, body, .container{
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+
 .navbar {
     top: 0;
     left: 0;
@@ -25,10 +34,6 @@
 
 .navbar__link:active{
     color: #000000;
-}
-
-.container{
-    display: flex;
 }
 
 .flex-container{
