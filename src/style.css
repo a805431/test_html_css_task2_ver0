@@ -46,6 +46,7 @@
 
 #save-button{
     border-radius: 5px;
+    padding: 5px;
 }
 
 label, input {
@@ -55,3 +56,14 @@ label, input {
 form label {
     margin-bottom: 20px;
 }
+
+.text-input{
+    border-color: #2aa0db;
+    padding: 5px
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2aa0db;
+}
+
