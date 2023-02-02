@@ -1,0 +1,57 @@
+
+.navbar {
+    top: 0;
+    left: 0;
+    width: 200 px;
+    height: 100%;
+    background: rgb(255,255,255);
+    border-right: 2px solid #C0C0C0
+}
+
+.navbar__link {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    color: #696969;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.85rem;
+    border-bottom: 1px solid #ffffff;
+}
+
+.navbar__link .material-icons{
+    margin-right: 20px;
+}
+
+.navbar__link:active{
+    color: #000000;
+}
+
+.container{
+    display: flex;
+}
+
+.flex-container{
+    display: flex;
+    direction: ltr;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.form{
+    flex-grow: 2;
+}
+
+#save-button{
+    border-radius: 5px;
+}
+
+label, input {
+    display: block;
+}
+
+form label {
+    margin-bottom: 20px;
+}
