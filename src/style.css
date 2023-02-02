@@ -6,12 +6,12 @@ html, body, .container{
 
 .container{
     display: flex;
+    column-gap: 45px;
 }
 
 .navbar {
-    top: 0;
-    left: 0;
     height: 100%;
+    width: 200px;
     background: rgb(255,255,255);
     border-right: 2px solid #C0C0C0
 }
