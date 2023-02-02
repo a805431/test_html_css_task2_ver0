@@ -2,7 +2,6 @@
 .navbar {
     top: 0;
     left: 0;
-    width: 200 px;
     height: 100%;
     background: rgb(255,255,255);
     border-right: 2px solid #C0C0C0
@@ -38,18 +37,24 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 20px;
+    flex-direction: column;
+
 }
 
 .form{
-    flex-grow: 2;
+    display: flex;
 }
 
 #save-button{
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px;
+    border: none;
+    background-color:#1f83cb;
+    color: #fff;
+    width: 175px;
 }
 
-label, input {
+form label, input {
     display: block;
 }
 
@@ -58,12 +63,16 @@ form label {
 }
 
 .text-input{
-    border-color: #2aa0db;
+    border-color: #1f83cb;
     padding: 5px
 }
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
-    color: #2aa0db;
+    color: #1f83cb;
+}
+
+#unnasign-link{
+    place-self: center;
 }
 
