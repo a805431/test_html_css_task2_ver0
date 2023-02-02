@@ -28,12 +28,17 @@ html, body, .container{
     border-bottom: 1px solid #ffffff;
 }
 
-.navbar__link .material-icons{
+.navbar__link .material-symbols-outlined{
     margin-right: 20px;
 }
 
 .navbar__link:active{
     color: #000000;
+}
+
+.current-farm-logo-image-icon img{
+     max-width:50%;
+    height:auto;
 }
 
 .flex-container{
@@ -43,7 +48,6 @@ html, body, .container{
     justify-content: flex-start;
     gap: 20px;
     flex-direction: column;
-
 }
 
 .form{
@@ -79,5 +83,6 @@ h2{
 
 #unassign-link{
    text-align: center; 
+   margin-top: 15px;
 }
 
