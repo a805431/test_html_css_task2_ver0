@@ -10,49 +10,56 @@
 <body>
     <div class="container">
        <div class="navbar">
-            <a href="#" class="navbar__link">
-                <span class="material-symbols-outlined">
-                    home</span>AtFarm
-            </a>  
-            <a href="#" class="navbar__link">
-                <span class="material-symbols-outlined">
-                    yard</span>Current farm
-            </a>  
-            <a href="#" class="navbar__link">
-                <span class="material-symbols-outlined">
+            <div class="home-icon">
+                <a href="#" class="navbar-link-home">
+                    <span class="atfarm-logo-image-icon">
+                        <img src="df7a2c34f9e9cc4c8144.png" alt="atFarmLogo"/>
+                    </span>AtFarm
+                </a>
+            </div>
+            <div class="navbar-items">
+                <a href="#" class="navbar-link">
+                    <span class="current-farm-logo-image-icon">
+                        <img src="9ce10fddd1ffb7f2e049.png" alt="currentFarmLogo"/>
+                    </span>Current farm
+                </a>  
+                <a href="#" class="navbar-link">
+                    <span class="material-symbols-outlined">
                     wb_twilight</span>Fields
-            </a>  
-            <a href="#" class="navbar__link">
-                <span class="material-symbols-outlined">
+                </a>  
+                <a href="#" class="navbar-link">
+                    <span class="material-symbols-outlined">
                     bar_chart</span>Nutrition Plan
-            </a>  
-            <a href="#" class="navbar__link">
-                <span class="material-symbols-outlined">
+                </a>  
+                <a href="#" class="navbar-link">
+                    <span class="material-symbols-outlined">
                     settings</span>Farm Settings
-            </a>
+                </a>
+            </div>
         </div> 
-            <div class="flex-container">
-                <form>
-                    <a href="#">Farm 01</a>
+           <div class="flex-container">
+                <div class="page-path">
+                    <a class = "path" href="#">Farm 01</a>
                     <span class="material-symbols-outlined">
                         chevron_right
-                        </span>
-                        <a href="#">Farm settings</a>
-                        <span class="material-symbols-outlined">
-                            chevron_right
-                            </span>
-                        <label>Farm details</label>
-                    <div class="farm-details"><h2>Farm details</h2>
+                    </span>
+                    <a class = "path" href="#">Farm settings</a>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                    <label class = "path"> Farm details </label>
+                </div>
+                <form class="farm-details-form">
+                    <div class="farm-details-sign"><h2 class="farm-details-headline">Farm details</h2>
                     </div>
-                    <label>
-                        Farm name
-                    <input class = "text-input" type="text">
+                    <label>Farm name
+                    <input class = "text-input" type="text" placeholder="Farm 01">
                     </label>
                     <label>Farm notes (optional)
                     <input class = "text-input" type="text">
                     </label>
                     <input type="submit" value="Save farm details" id="save-button">
-                    <a href="#">Unassign farm</a>
+                    <a href="#" id="unassign-link">Unassign farm</a>
                 </form>
             </div>
     </div>

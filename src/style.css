@@ -48,7 +48,7 @@ html, body, .container{
     column-gap: 5px;
 }
 
-.navbar-link-home, .page-path, .navbar-link, .path, #unassign-link{
+.navbar-link-home, .page-path, .navbar-link, .path{
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -76,44 +76,5 @@ html, body, .container{
     vertical-align: super;
 }
 
-.farm-details-sign{
-    margin-bottom: 30px;
-}
 
-.form{
-    display: flex;
-}
-
-#save-button{
-    border-radius: 5px;
-    padding: 10px;
-    border: none;
-    background-color:#1f83cb;
-    color: #fff;
-    width: 100%;
-}
-
-.farm-details-form label, input, #unassign-link{
-    display: grid;
-}
-
-.farm-details-form label {
-    margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.text-input{
-    border-color: #1f83cb;
-    padding: 5px;
-}
-
-.farm-details-headline{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1f83cb;
-}
-
-#unassign-link{
-   text-align: center; 
-   margin-top: 15px;
-}
 
