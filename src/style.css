@@ -17,7 +17,7 @@ html, body, .container{
     border-right: 1px solid #C0C0C0
 }
 
-.navbar__link, .navbar__link_home{
+.navbar-link, .navbar-link-home{
     display: flex;
     align-items: center;
     background: #ffffff;
@@ -26,33 +26,33 @@ html, body, .container{
     font-weight: bold;
     border-bottom: 1px solid #ffffff;
 }
-.navbar__link .material-symbols-outlined{
+.navbar-link .material-symbols-outlined{
     margin-right: 20px;
 }
 
-.navbar__link{
+.navbar-link{
     color: #696969;
     font-size: 0.85rem;
 }
 
-.navbar__link_home{
+.navbar-link-home{
     color: #000;
     font-size: 1.25rem;
 }
 
-.home{
+.home-icon{
     align-items: stretch;
 }
 
-.navbar__link_home{
+.navbar-link-home{
     column-gap: 5px;
 }
 
-a, .page-path{
+.navbar-link-home, .page-path, .navbar-link, .path, #unassign-link{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar__link:active{
+.navbar-link:active{
     color: #000000;
 }
 
@@ -93,11 +93,11 @@ a, .page-path{
     width: 100%;
 }
 
-form label, input, #unassign-link{
+.farm-details-form label, input, #unassign-link{
     display: grid;
 }
 
-form label {
+.farm-details-form label {
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -107,7 +107,7 @@ form label {
     padding: 5px;
 }
 
-h2{
+.farm-details-headline{
     font-family: Arial, Helvetica, sans-serif;
     color: #1f83cb;
 }
