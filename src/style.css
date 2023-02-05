@@ -76,5 +76,13 @@ html, body, .container{
     vertical-align: super;
 }
 
+.nutrition-plan-overview-base-tag, .overview-of-crop-sub-headline{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.overview-of-crop-sub-headline{
+    color: #7c7c8a;
+}
+
 
 
