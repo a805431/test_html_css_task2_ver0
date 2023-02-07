@@ -84,5 +84,36 @@ html, body, .container{
     color: #7c7c8a;
 }
 
+.tabs{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
 
+.tabs input[type="radio"]{
+    display: none;
+}
 
+.tabs label{
+    padding: 25px;
+    background: #fff;
+}
+
+.tabs .tab{
+    width: 100%;
+    background: #fff;
+    order: 1;
+    display: none;
+}
+
+.tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+}
+
+.tabs input[type="radio"]:checked + label{
+    background: #2f7549;
+}
+
+.search-box{
+    border-color: rgb(20, 87, 154);
+}
